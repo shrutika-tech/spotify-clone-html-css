@@ -219,6 +219,7 @@ a{
     height:1rem;
     margin-right: 1.75rem;
     opacity:0.7;
+    gap: 0.75rem;
 }
 .player-controls-icon:hover{
     opacity:1;
@@ -253,7 +254,7 @@ a{
 .album{
     display: flex;
     justify-content: space-evenly;
-    align-items: start;
+    align-items: center;
     height: 3.5rem ;
 }
 
@@ -262,16 +263,70 @@ a{
     height: 56px;
 }
 .song{
-    font-size: 1rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 0px 0px;
+    margin-top: 0.75rem;
+    color: #fff;
+    
 }
 .artist{
     font-size: 0.5rem;
+     color: #b3b3b3;
+    
 }
 .album-icon1{
     height:1.55rem;
     width:1.55rem;
+    margin-left: 0.25rem;
 }
 .album-icon2{
     height:2.2rem;
     width:2.2rem;
+    margin-right: 3.75rem;
+}
+.special{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
+    margin-left: 0.5rem;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.control-icon1 {
+    height: 3rem;
+}
+ .control-icon2 {
+    height: 3rem;
+}
+.control-icon3{
+    height: 1.55rem;
+}
+.control-icon4 {
+    height: 1.25rem;
+    margin-left: 0.5rem;
+}
+ .control-icon5 {
+    height: 2.75rem;
+}
+.volume-bar{
+    appearance: none;
+    width: 6rem;
+    cursor: pointer;
+}
+.volume-bar::-webkit-slider-runnable-track{
+    background-color: #555;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+.volume-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 0.7rem;
+    width: 0.7rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -3px;
 }
